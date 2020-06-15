@@ -112,11 +112,18 @@ border: solid 3px var(--green);
 }
 
 /*grid for work section*/
+#work {
+  background: var(--darkgreen);
 
+}
+#work h3 {
+  color: wheat;
+}
 .grid-wrapper {
   display: flex;
   width: 100%;
   justify-content: center;
+  border-left: 3px solid wheat;
 }
 .grid-container {
   
@@ -130,7 +137,7 @@ border: solid 3px var(--green);
 }
 .grid-item{
   padding: 2.2rem 0;
-  border: 5px solid wheat;
+  border: 5px solid var(--darkgreen);
   display: flex;
   align-items: center;
   justify-content: center;
