@@ -73,14 +73,14 @@ color: wheat;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  
 }
 .section h3 {
-    border-right: 3px solid var(--darkgreen);
+    
     padding-right: 20px;
   color: var(--darkgreen);
   font-size: 46px;
-  margin-top: 10px;
-  margin-right: 10px    ;
+ 
   flex: 1 20%;
  
   text-align: right;
@@ -90,6 +90,8 @@ color: wheat;
   flex-wrap: wrap;
   align-items: center;
   flex: 2 70%;
+  border-left: 3px solid var(--darkgreen);
+  padding-left: 10px;
 }
 .section-img {
   flex: 1 30%;
